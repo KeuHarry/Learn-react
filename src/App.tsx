@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Gallery from './components/Gallery';
+import Gallery from './components/importing-exporting-components/Gallery'
 
 function App() {
   const [count, setCount] = useState(0)
